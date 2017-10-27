@@ -1,0 +1,94 @@
+@media all and (max-width: 1200px){
+	.news-text{
+		padding-top: 10px;
+		text-align: justify;	
+	}	
+}
+
+@media all and (max-width: 992px){
+	.key-content{
+		padding-left: 50px;
+	}
+
+	.news [class*="col-"] {
+					      padding-left: 15px;
+					      padding-right: 15px;
+					    }
+					    .row {
+					      margin-right: -15px;
+						  margin-left: -15px;
+					    }
+					    .container-fluid {
+					      padding-right: 15px;
+						  padding-left: 15px;
+					    }
+}
+
+@media all and (max-width: 767px){
+	.head{		
+		height: 100%;	
+	}
+
+	.heading img.w-symbol{
+		width: 60%;
+	}
+
+	.forms button.first-level{
+		margin-bottom: 90px;
+	}
+
+	.navbar-default .navbar-nav > li > a{			
+		padding: 0px;
+		padding-bottom: 0px;
+		border-bottom: none;
+	}
+
+	.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+		color: #fff;
+		border-bottom: none;
+		background-color: rgba(111,111,111,0.5);
+	}
+
+	.navbar-default .navbar-nav > li > a:hover{
+		color: #fff;
+		border-bottom: none;
+		text-decoration: none;
+		background-color: rgba(111,111,111,0.5);
+	}	
+
+	footer{
+		text-align: center;
+	}
+
+	footer span, footer img{
+		float: none;		
+	}
+	
+}
+
+@media all and (max-width: 670px){
+		
+	.key-feature .key-content button{
+		width: 320px;
+	}
+
+
+}
+
+@media all and (max-width: 450px){
+
+	.heading img.w-symbol{
+		width: 80%;
+	}
+
+	.key-feature .key-content {
+	    padding-left: 20px;
+	}
+
+	.key-feature .key-content button{
+		width: 255px;
+		font-size: 15px;
+		padding: 10px;
+	}
+}
+
